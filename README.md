@@ -16,6 +16,9 @@ during the compression operation, leaving no need for the ```r``` flag when deco
 
 Compiling: ```javac LZWmod.java```
 
+
 Compression: ```java LZWmod - <file.txt >compressedFile.lzw```
+
 Compression (Codebook reset mode): ```java LZWmod - r <file.txt >compressedFile.lzw```
+
 Decompression: ```java LZWmod + <compressedFile.lzw >file.txt```
